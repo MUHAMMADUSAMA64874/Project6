@@ -1,0 +1,965 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Survey – Questions</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="js/fontawesome-all.min.js"></script>
+  </head>
+  <body class="bg-light py-3 py-lg-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="display-4">Modern Lifestyle and Technology Survey</h1>
+        <p class="lead">Survey Title: Exploring the Impact of Technology on Modern Lifestyles</p>
+      </div>
+      <ul class="nav nav-tabs nav-justified" id="nav" role="tablist">
+        <li class="nav-item">
+          <a href="#step-1" class="nav-link h4 mb-0 active" id="step-1-tab" data-toggle="tab" role="tab" aria-controls="step-1" aria-selected="true">Step 1<br><small class="d-none d-md-inline">Personal Info</small></a>
+        </li>
+        <li class="nav-item">
+          <a href="#step-2" class="nav-link h4 mb-0" id="step-2-tab" data-toggle="tab" role="tab" aria-controls="step-2" aria-selected="false">Step 2<br><small class="d-none d-md-inline">Questions w/answers</small></a>
+        </li>
+        <li class="nav-item">
+          <a href="#step-3" class="nav-link h4 mb-0" id="step-3-tab" data-toggle="tab" role="tab" aria-controls="step-3" aria-selected="false">Step 3<br><small class="d-none d-md-inline">Questions w/ratings</small></a>
+        </li>
+      </ul>
+      <div class="tab-content" id="navContent">
+        <div class="tab-pane fade pt-4 show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+          <div class="form-row">
+          	<div class="col-md-3 form-group">
+          		<label>Sex:</label>
+          		<div>
+          			<div class="form-check form-check-inline">
+          				<input type="radio" class="form-check-input" name="sex" id="sex-male" value="male">
+          				<label class="form-check-label" for="sex-male">Male</label>
+          			</div>
+          			<div class="form-check form-check-inline">
+          				<input type="radio" class="form-check-input" name="sex" id="sex-female" value="female">
+          				<label class="form-check-label" for="sex-female">Female</label>
+          			</div>
+          		</div>
+          	</div>
+          	<div class="col-md-3 form-group">
+          		<label for="age">Age:</label>
+          		<input type="number" class="form-control" id="age">
+          	</div>
+          	<div class="col-md-6 form-group">
+          		<label for="phone">Phone:</label>
+          		<input type="tel" class="form-control" id="phone">
+          	</div>
+          </div>
+          <div class="form-row">
+          	<div class="col-md-6 form-group">
+          		<label for="name">Name:</label>
+          		<input type="text" class="form-control" id="name" placeholder="Firstname Lastname">
+          	</div>
+          	<div class="col-md-6 form-group">
+          		<label for="email">Email:</label>
+          		<input type="email" class="form-control" id="email" placeholder="username@domain.com">
+          	</div>
+          </div>
+          <div class="form-row">
+          	<div class="col-md-9 form-group">
+          		<label for="address">Address:</label>
+          		<input type="text" class="form-control" id="address" placeholder="1234 Grand Avenue">
+          	</div>
+          	<div class="col-md-3 form-group">
+          		<label for="apartment">Apartment or floor:</label>
+          		<input type="text" class="form-control" id="apartment" placeholder="B3, 4th Floor, or similar">
+          	</div>
+          </div>
+          <div class="form-row">
+          	<div class="col-md-6 form-group">
+          		<label for="city">City:</label>
+          		<input type="text" class="form-control" id="city" placeholder="City">
+          	</div>
+          	<div class="col-md-2 form-group">
+          		<label for="zip">Zip:</label>
+          		<input type="number" class="form-control" id="zip" placeholder="1234">
+          	</div>
+          	<div class="col-md-4 form-group">
+          		<label for="country">Country:</label>
+          		<select id="country" class="form-control">
+          			<option value="" selected>- Select Country -</option>
+          			<option value="Denmark">Denmark</option>
+          			<option value="Finland">Finland</option>
+          			<option value="Norway">Norway</option>
+          			<option value="Sweden">Sweden</option>
+          		</select>
+          	</div>
+          </div>
+          <button type="button" class="btn btn-outline-secondary btn-lg d-block ml-auto" id="goto-step-2">Step 2</button>
+        </div>
+        <div class="tab-pane fade pt-4" id="step-2" role="tabpanel" aria-labelledby="step-2-tab">
+          <h2 class="h5 text-center mb-3">Question 1: How often do you use your smartphone for communication and social interactions?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://i.ytimg.com/vi/OOsqkQytHOs/maxresdefault.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-1" value="option1">
+                  <label class="form-check-label" for="radioButtonsQuestion1-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-2" value="option2">
+                  <label class="form-check-label" for="radioButtonsQuestion1-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-3" value="option3">
+                  <label class="form-check-label" for="radioButtonsQuestion1-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-4" value="option4">
+                  <label class="form-check-label" for="radioButtonsQuestion1-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-5" value="option5">
+                  <label class="form-check-label" for="radioButtonsQuestion1-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="radio" name="radioButtonsQuestion1" id="radioButtonsQuestion1-6" value="option6">
+                  <label class="form-check-label" for="radioButtonsQuestion1-6">
+                    <input type="text" class="form-control form-control-sm" id="radioButtonsQuestion1-other" placeholder="Other" aria-describedby="radioButtonsQuestion1-other-help">
+                  </label>
+                  <small id="radioButtonsQuestion1-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 2: How often do you engage in online shopping or e-commerce activities?</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://www.revechat.com/wp-content/uploads/2021/03/Ecommerce-customer-engagement-impacts-sales.png" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-1" value="option1">
+                  <label class="form-check-label" for="radioButtonsQuestion2-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-2" value="option2">
+                  <label class="form-check-label" for="radioButtonsQuestion2-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-3" value="option3">
+                  <label class="form-check-label" for="radioButtonsQuestion2-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-4" value="option4">
+                  <label class="form-check-label" for="radioButtonsQuestion2-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-5" value="option5">
+                  <label class="form-check-label" for="radioButtonsQuestion2-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="radio" name="radioButtonsQuestion2" id="radioButtonsQuestion2-6" value="option6">
+                  <label class="form-check-label" for="radioButtonsQuestion2-6">
+                    <input type="text" class="form-control form-control-sm" id="radioButtonsQuestion2-other" placeholder="Other" aria-describedby="radioButtonsQuestion2-other-help">
+                  </label>
+                  <small id="radioButtonsQuestion2-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 3: How often do you use streaming services (e.g., Netflix, Spotify) for entertainment?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://cdn.vox-cdn.com/thumbor/0CfRsMTavDIh9689YL12XKlnypI=/0x0:1200x800/1200x800/filters:focal(504x304:696x496)/cdn.vox-cdn.com/uploads/chorus_image/image/66907481/StreamingBreakdown_Ringer.0.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-1" value="option1">
+                  <label class="form-check-label" for="radioButtonsQuestion3-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-2" value="option2">
+                  <label class="form-check-label" for="radioButtonsQuestion3-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-3" value="option3">
+                  <label class="form-check-label" for="radioButtonsQuestion3-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-4" value="option4">
+                  <label class="form-check-label" for="radioButtonsQuestion3-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-5" value="option5">
+                  <label class="form-check-label" for="radioButtonsQuestion3-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="radio" name="radioButtonsQuestion3" id="radioButtonsQuestion3-6" value="option6">
+                  <label class="form-check-label" for="radioButtonsQuestion3-6">
+                    <input type="text" class="form-control form-control-sm" id="radioButtonsQuestion3-other" placeholder="Other" aria-describedby="radioButtonsQuestion3-other-help">
+                  </label>
+                  <small id="radioButtonsQuestion3-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 4: How often do you participate in social media platforms for personal or professional reasons?</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej-1280x720.png" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-1" value="option1">
+                  <label class="form-check-label" for="radioButtonsQuestion4-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-2" value="option2">
+                  <label class="form-check-label" for="radioButtonsQuestion4-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-3" value="option3">
+                  <label class="form-check-label" for="radioButtonsQuestion4-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-4" value="option4">
+                  <label class="form-check-label" for="radioButtonsQuestion4-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-5" value="option5">
+                  <label class="form-check-label" for="radioButtonsQuestion4-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="radio" name="radioButtonsQuestion4" id="radioButtonsQuestion4-6" value="option6">
+                  <label class="form-check-label" for="radioButtonsQuestion4-6">
+                    <input type="text" class="form-control form-control-sm" id="radioButtonsQuestion4-other" placeholder="Other" aria-describedby="radioButtonsQuestion4-other-help">
+                  </label>
+                  <small id="radioButtonsQuestion4-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 5: How often do you rely on navigation and map apps to find your way around?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://gisgeography.com/wp-content/uploads/2019/11/gps-navigation-apps-feature-1265x681.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-1" value="option1">
+                  <label class="form-check-label" for="radioButtonsQuestion5-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-2" value="option2">
+                  <label class="form-check-label" for="radioButtonsQuestion5-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-3" value="option3">
+                  <label class="form-check-label" for="radioButtonsQuestion5-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-4" value="option4">
+                  <label class="form-check-label" for="radioButtonsQuestion5-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-5" value="option5">
+                  <label class="form-check-label" for="radioButtonsQuestion5-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="radio" name="radioButtonsQuestion5" id="radioButtonsQuestion5-6" value="option6">
+                  <label class="form-check-label" for="radioButtonsQuestion5-6">
+                    <input type="text" class="form-control form-control-sm" id="radioButtonsQuestion5-other" placeholder="Other" aria-describedby="radioButtonsQuestion5-other-help">
+                  </label>
+                  <small id="radioButtonsQuestion5-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 6: How often do you use fitness or health-tracking apps to monitor your physical activity?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://www.apptunix.com/blog/wp-content/uploads/sites/3/2020/04/Health-Tracking-apps.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-1" value="option-1">
+                  <label class="form-check-label" for="checkboxesQuestion6-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-2" value="option-2">
+                  <label class="form-check-label" for="checkboxesQuestion6-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-3" value="option-3">
+                  <label class="form-check-label" for="checkboxesQuestion6-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-4" value="option-4">
+                  <label class="form-check-label" for="checkboxesQuestion6-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-5" value="option-5">
+                  <label class="form-check-label" for="checkboxesQuestion6-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="checkbox" name="checkboxesQuestion6" id="checkboxesQuestion6-6" value="option-6">
+                  <label class="form-check-label" for="checkboxesQuestion6-6">
+                    <input type="text" class="form-control form-control-sm" id="checkboxesQuestion6-other" placeholder="Other" aria-describedby="checkboxesQuestion6-other-help">
+                  </label>
+                  <small id="checkboxesQuestion6-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 7: How often do you watch online tutorials or attend webinars for learning new skills?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://www.acecloudhosting.com/wp-content/uploads/2020/04/top-webinars-you-can-attend-to-sharpen-your-skills.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-1" value="option-1">
+                  <label class="form-check-label" for="checkboxesQuestion7-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-2" value="option-2">
+                  <label class="form-check-label" for="checkboxesQuestion7-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-3" value="option-3">
+                  <label class="form-check-label" for="checkboxesQuestion7-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-4" value="option-4">
+                  <label class="form-check-label" for="checkboxesQuestion7-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-5" value="option-5">
+                  <label class="form-check-label" for="checkboxesQuestion7-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="checkbox" name="checkboxesQuestion7" id="checkboxesQuestion7-6" value="option-6">
+                  <label class="form-check-label" for="checkboxesQuestion7-6">
+                    <input type="text" class="form-control form-control-sm" id="checkboxesQuestion7-other" placeholder="Other" aria-describedby="checkboxesQuestion7-other-help">
+                  </label>
+                  <small id="checkboxesQuestion7-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 8: How often do you use food delivery apps to order meals?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://www.netsolutions.com/insights/wp-content/uploads/2021/10/Online-Food-Delivery-Apps.png.webp" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-1" value="option-1">
+                  <label class="form-check-label" for="checkboxesQuestion8-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-2" value="option-2">
+                  <label class="form-check-label" for="checkboxesQuestion8-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-3" value="option-3">
+                  <label class="form-check-label" for="checkboxesQuestion8-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-4" value="option-4">
+                  <label class="form-check-label" for="checkboxesQuestion8-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-5" value="option-5">
+                  <label class="form-check-label" for="checkboxesQuestion8-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="checkbox" name="checkboxesQuestion8" id="checkboxesQuestion8-6" value="option-6">
+                  <label class="form-check-label" for="checkboxesQuestion8-6">
+                    <input type="text" class="form-control form-control-sm" id="checkboxesQuestion8-other" placeholder="Other" aria-describedby="checkboxesQuestion8-other-help">
+                  </label>
+                  <small id="checkboxesQuestion8-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 9: How often do you engage in video conferencing for work or personal meetings?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/624b9192faabc4059ae9d805_How-to-build-trust-with-remote-teams.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-1" value="option-1">
+                  <label class="form-check-label" for="checkboxesQuestion9-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-2" value="option-2">
+                  <label class="form-check-label" for="checkboxesQuestion9-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-3" value="option-3">
+                  <label class="form-check-label" for="checkboxesQuestion9-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-4" value="option-4">
+                  <label class="form-check-label" for="checkboxesQuestion9-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-5" value="option-5">
+                  <label class="form-check-label" for="checkboxesQuestion9-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="checkbox" name="checkboxesQuestion9" id="checkboxesQuestion9-6" value="option-6">
+                  <label class="form-check-label" for="checkboxesQuestion9-6">
+                    <input type="text" class="form-control form-control-sm" id="checkboxesQuestion9-other" placeholder="Other" aria-describedby="checkboxesQuestion9-other-help">
+                  </label>
+                  <small id="checkboxesQuestion9-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <h2 class="h5 text-center mb-3">Question 10: How often do you play online games or use gaming apps for entertainment?
+
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <figure class="figure">
+                <img src="https://assets3.thrillist.com/v1/image/2865894/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A caption for the figure image.</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-1" value="option-1">
+                  <label class="form-check-label" for="checkboxesQuestion10-1">Rarely
+</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-2" value="option-2">
+                  <label class="form-check-label" for="checkboxesQuestion10-2">Occasionally</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-3" value="option-3">
+                  <label class="form-check-label" for="checkboxesQuestion10-3">Daily</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-4" value="option-4">
+                  <label class="form-check-label" for="checkboxesQuestion10-4">Multiple times a day</label>
+                </div>
+                <div class="form-check mb-1">
+                  <input class="form-check-input" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-5" value="option-5">
+                  <label class="form-check-label" for="checkboxesQuestion10-5">Answer for radio 5</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input mt-2" type="checkbox" name="checkboxesQuestion10" id="checkboxesQuestion10-6" value="option-6">
+                  <label class="form-check-label" for="checkboxesQuestion10-6">
+                    <input type="text" class="form-control form-control-sm" id="checkboxesQuestion10-other" placeholder="Other" aria-describedby="checkboxesQuestion10-other-help">
+                  </label>
+                  <small id="checkboxesQuestion10-other-help" class="form-text text-muted">If none of the answers above is appropriate for you please write your own answer in the input field.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-secondary btn-lg d-block ml-auto" id="goto-step-3">Step 3</button>
+        </div>
+        <div class="tab-pane fade pt-4" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 11: On a scale of 1 to 5, how frequently do you use smart home devices (e.g., smart thermostat, smart lights) to control your living environment?
+
+              </h2>
+          		<p class="small">Smart home devices allow for seamless control of various aspects of your home environment, enhancing convenience and energy efficiency.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group d-flex justify-content-between">
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-1" value="rating-1">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-1">1</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-2" value="rating-2">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-2">2</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-3" value="rating-3">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-3">3</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-4" value="rating-4">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-4">4</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-5" value="rating-5">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-5">5</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion11" id="ratingRadioQuestion11-na" value="rating-na">
+          			  <label class="form-check-label" for="ratingRadioQuestion11-na">n/a</label>
+          			</div>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingRadioQuestion11-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingRadioQuestion11-comment" name="ratingRadioQuestion11" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 12: Please rate from 1 to 5 how often you engage in virtual meetings or online classes for work or education purposes?
+
+              </h2>
+          		<p class="small">Virtual meetings and online classes have become integral to remote work and learning, offering flexibility and connectivity.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group d-flex justify-content-between">
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-1" value="rating-1">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-1">1</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-2" value="rating-2">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-2">2</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-3" value="rating-3">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-3">3</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-4" value="rating-4">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-4">4</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-5" value="rating-5">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-5">5</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion12" id="ratingRadioQuestion12-na" value="rating-na">
+          			  <label class="form-check-label" for="ratingRadioQuestion12-na">n/a</label>
+          			</div>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingRadioQuestion12-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingRadioQuestion12-comment" name="ratingRadioQuestion12" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 13: How often do you use mobile banking apps or digital payment platforms for financial transactions?
+
+              </h2>
+          		<p class="small">Mobile banking apps and digital payments offer convenience and security in managing your financial activities.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group d-flex justify-content-between">
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-1" value="rating-1">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-1">1</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-2" value="rating-2">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-2">2</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-3" value="rating-3">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-3">3</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-4" value="rating-4">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-4">4</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-5" value="rating-5">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-5">5</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion13" id="ratingRadioQuestion13-na" value="rating-na">
+          			  <label class="form-check-label" for="ratingRadioQuestion13-na">n/a</label>
+          			</div>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingRadioQuestion13-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingRadioQuestion13-comment" name="ratingRadioQuestion13" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 14: Rate your usage frequency (1 to 5) of health and wellness apps that help you track exercise, diet, and overall well-being.
+
+              </h2>
+          		<p class="small">Health and wellness apps provide insights into your lifestyle choices and encourage healthier habits.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group d-flex justify-content-between">
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-1" value="rating-1">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-1">1</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-2" value="rating-2">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-2">2</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-3" value="rating-3">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-3">3</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-4" value="rating-4">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-4">4</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-5" value="rating-5">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-5">5</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion14" id="ratingRadioQuestion14-na" value="rating-na">
+          			  <label class="form-check-label" for="ratingRadioQuestion14-na">n/a</label>
+          			</div>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingRadioQuestion14-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingRadioQuestion14-comment" name="ratingRadioQuestion14" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 15: How often do you utilize online collaboration tools for team projects or group activities?
+
+              </h2>
+          		<p class="small">Online collaboration tools enhance teamwork and communication in professional and academic settings.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group d-flex justify-content-between">
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-1" value="rating-1">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-1">1</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-2" value="rating-2">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-2">2</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-3" value="rating-3">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-3">3</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-4" value="rating-4">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-4">4</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-5" value="rating-5">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-5">5</label>
+          			</div>
+          			<div class="form-check">
+          			  <input class="form-check-input" type="radio" name="ratingRadioQuestion15" id="ratingRadioQuestion15-na" value="rating-na">
+          			  <label class="form-check-label" for="ratingRadioQuestion15-na">n/a</label>
+          			</div>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingRadioQuestion15-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingRadioQuestion15-comment" name="ratingRadioQuestion15" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 16: Please rate your frequency (1 to 5) of using ride-sharing or food delivery apps for transportation and meal delivery.
+
+              </h2>
+          		<p class="small">Ride-sharing and food delivery apps offer convenient solutions for commuting and dining.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-1" value="rating1"> 1
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-2" value="rating2"> 2
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-3" value="rating3"> 3
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-4" value="rating4"> 4
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-5" value="rating5"> 5
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion16" id="ratingButtonQuestion16-na" value="rating-na"> n/a
+          			</label>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingButtonQuestion16-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingButtonQuestion16-comment" name="ratingButtonQuestion16" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 17: How often do you engage with virtual reality (VR) or augmented reality (AR) experiences for entertainment or education?
+
+              </h2>
+          		<p class="small">VR and AR provide immersive and interactive experiences beyond traditional media.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-1" value="rating1"> 1
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-2" value="rating2"> 2
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-3" value="rating3"> 3
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-4" value="rating4"> 4
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-5" value="rating5"> 5
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion17" id="ratingButtonQuestion17-na" value="rating-na"> n/a
+          			</label>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingButtonQuestion17-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingButtonQuestion17-comment" name="ratingButtonQuestion17" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 18: Rate your usage frequency (1 to 5) of language learning apps or platforms to acquire new languages or improve language skills.
+
+              </h2>
+          		<p class="small">Language learning apps make acquiring new languages accessible and engaging.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-1" value="rating1"> 1
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-2" value="rating2"> 2
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-3" value="rating3"> 3
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-4" value="rating4"> 4
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-5" value="rating5"> 5
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion18" id="ratingButtonQuestion18-na" value="rating-na"> n/a
+          			</label>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingButtonQuestion18-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingButtonQuestion18-comment" name="ratingButtonQuestion18" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 19: How often do you engage in online forums, social media groups, or online communities to connect with like-minded individuals?
+
+              </h2>
+          		<p class="small">Online communities foster connections and discussions on shared interests.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-1" value="rating1"> 1
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-2" value="rating2"> 2
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-3" value="rating3"> 3
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-4" value="rating4"> 4
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-5" value="rating5"> 5
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion19" id="ratingButtonQuestion19-na" value="rating-na"> n/a
+          			</label>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingButtonQuestion19-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingButtonQuestion19-comment" name="ratingButtonQuestion19" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <hr>
+          <div class="row">
+          	<div class="col-lg-6">
+          		<h2 class="h5">Question 20: Please rate your usage frequency (1 to 5) of meditation or mindfulness apps for relaxation and mental well-being.
+
+              </h2>
+          		<p class="small">Meditation and mindfulness apps offer tools to manage stress and promote mental clarity.
+
+              </p>
+          	</div>
+          	<div class="col-lg-6">
+          		<div class="form-group btn-group btn-group-toggle" data-toggle="buttons">
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-1" value="rating1"> 1
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-2" value="rating2"> 2
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-3" value="rating3"> 3
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-4" value="rating4"> 4
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-5" value="rating5"> 5
+          			</label>
+          			<label class="btn btn-outline-secondary">
+          				<input type="radio" name="ratingButtonQuestion20" id="ratingButtonQuestion20-na" value="rating-na"> n/a
+          			</label>
+          		</div>
+          		<div class="form-group">
+          	    <label class="sr-only" for="ratingButtonQuestion20-comment">Comment:</label>
+          	    <textarea class="form-control form-control-sm" id="ratingButtonQuestion20-comment" name="ratingButtonQuestion20" rows="3" placeholder="Write a comment here..."></textarea>
+          	  </div>
+          	</div>
+          </div>
+          <button type="submit" class="btn btn-secondary btn-lg d-block ml-auto">Submit</button>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('#goto-step-2').on('click', function (e) {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 300, function() {
+            $('#step-2-tab').tab('show');
+          });
+        })
+        $('#goto-step-3').on('click', function (e) {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 1000, function() {
+            $('#step-3-tab').tab('show');
+          });
+        })
+      })
+    </script>
+  </body>
+</html>
